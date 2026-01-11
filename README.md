@@ -7,34 +7,44 @@ This repository offers a comprehensive implementation of the Random Forest algor
 This repository contains 3 different Random Forest projects:
 
 #### 1. Customer Churn
-- **Data**: Customer churn dataset in `Customer Churn/Data/`
+
+- **Data**: Customer churn dataset in `Customer Churn/Data/`
+- **Notebook**:  `Customer Churn/Customer Churn.ipynb`
 - **Content**: Customer behavior and churn prediction data
 - **Objective**: Predict customer churn using ensemble methods
 - **Status**: Ready for analysis
 
 #### 2. Cybersecurity Attacks
-- **Data**: Cybersecurity incident data in `Cybersecurity Attacks/Data/`
+
+- **Data**: Cybersecurity incident data in `Cybersecurity Attacks/Data/`
+- **Notebook**:  `Cybersecurity Attacks/Cybersecurity_Attack_Prediction.ipynb`
 - **Content**: Network security logs and attack patterns
-- **Objective**: Detect and classify cybersecurity threats
+- **Objective**: By deploying this Random Forest model, we have transformed raw logs into a proactive Intrusion Detection System. Unlike traditional signature-based detection which only catches "known" threats, this model uses Anomaly Scores and Traffic Patterns to identify zero-day behavior.
 - **Status**: Ready for analysis
 
 #### 3. Marine Engine
-- **Data**: `Marine Engine/marine_engine_data.csv`
+
+- **Data**: `Marine Engine/marine_engine_data.csv`
+- **Notebook**:  `Marine Engine/Marine_Engine_Maintainence.ipynb`
 - **Content**: Marine engine performance and maintenance data
-- **Objective**: Predict engine failures and maintenance needs
+- **Objective**: This notebook demonstrates an end-to-end machine learning workflow to predict the maintenance status of marine engines using real-time telemetry and sensor data. In the maritime industry, shifting from reactive repairs to Condition-Based Maintenance (CBM) is essential for reducing vessel downtime, preventing catastrophic engine failure, and optimizing operational costs.
 - **Status**: Ready for analysis
 
 ## Getting Started
 
+
 1. Clone this repository
 2. Install required Python packages for Random Forest:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn jupyter xgboost
-   ```
+    
+    ```shell
+    pip install pandas numpy scikit-learn matplotlib seaborn jupyter xgboost
+    ```
+    
 3. Choose a project folder and explore the data
 4. Apply Random Forest and other ensemble methods
 
 ## Random Forest Concepts Covered
+
 
 - **Bootstrap Aggregating (Bagging)**: Variance reduction technique
 - **Feature Randomness**: Random feature selection at each split
@@ -50,14 +60,21 @@ This repository contains 3 different Random Forest projects:
 
 ## Project Structure
 
+
 ```
 Random-Forests/
 ├── README.md
 ├── Customer Churn/
+├── Customer Churn.ipynb
 │   └── Data/
+│   └── Customer-Churn.csv
 ├── Cybersecurity Attacks/
+├── Cybersecurity_Attack_Prediction.ipynb
 │   └── Data/
+│   └──cybersecurity_attacks.csv
 └── Marine Engine/
+├── Marine_Engine_Maintainence.ipynb
+│   └── Data/
     └── marine_engine_data.csv
 ```
 
